@@ -1,5 +1,5 @@
 # school
-school classes and pupils
+school classes and pupils (see _wiki_ for more details)
 
 class has
 - name

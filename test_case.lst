@@ -1,0 +1,40 @@
+"clean up: delete all classes cascaded" del_all_classes.sh del_all_classes.out
+"list all classes (no classes)" lst_all_classes.sh lst_all_classes_empty.out
+"create class 1A" cre_class_1A.sh cre_class_1A_first.out
+"create class 1A again" cre_class_1A.sh cre_class_1A_again.out
+"create class 1B" cre_class_1B.sh cre_class_1B.out
+"create class 2A" cre_class_2A.sh cre_class_2A.out
+"create class 2B" cre_class_2B.sh cre_class_2B.out
+"list all classes (4 classes)" lst_all_classes.sh lst_all_classes_4.out
+"list class 1A" lst_class_1A.sh lst_class_1A.out
+"list class 2B" lst_class_2B.sh lst_class_2B.out
+"list all pupils (no pupils)" lst_all_pupils.sh lst_all_pupils_empty.out
+"create pupil Anna" cre_pupil_Anna.sh cre_pupil_Anna.out
+"create pupil Botond" cre_pupil_Botond.sh cre_pupil_Botond.out
+"create pupil Csaba" cre_pupil_Csaba.sh cre_pupil_Csaba.out
+"create pupil Dia" cre_pupil_Dia.sh cre_pupil_Dia.out
+"list all pupils (4 pupils)" lst_all_pupils.sh lst_all_pupils_4.out
+"create pupil Dia again" cre_pupil_Dia.sh cre_pupil_Dia_again.out
+"create pupil Etelka (wrong class)" cre_pupil_Etelka.sh cre_pupil_Etelka_wrong_class.out
+"create pupil Ferenc (wrong numeric id)" cre_pupil_Ferenc.sh cre_pupil_Ferenc_wrong_numeric_id.out
+"create pupil Gergely (wrong non-numeric id)" cre_pupil_Gergely.sh cre_pupil_Gergely_wrong_non_numeric_id.out
+"list all pupils (4 pupils)" lst_all_pupils.sh lst_all_pupils_4.out
+"delete class 1A" del_class_1A.sh del_class_1A.out
+"list all classes (3 classes)" lst_all_classes.sh lst_all_classes_3.out
+"delete class 1A (again)" del_class_1A.sh del_class_1A_again.out
+"delete class 1B (not empty)" del_class_1B.sh del_class_1B_not_empty.out
+"delete class 1C (not exists)" del_class_1C.sh del_class_1C_not_exists.out
+"list all classes (3 classes)" lst_all_classes.sh lst_all_classes_3.out
+"delete pupil Anna" del_pupil_1.sh del_pupil_1.out
+"list all pupils (3 pupils)" lst_all_pupils.sh lst_all_pupils_3.out
+"delete pupil Anna (again)" del_pupil_1.sh del_pupil_1_again.out
+"delete pupil with wrong numeric id" del_pupil_11.sh del_pupil_11_wrong_numeric_id.out
+"delete pupil with wrong non-numeric id" del_pupil_next.sh del_pupil_next_wrong_non_numeric_id.out
+"list all pupils (3 pupils)" lst_all_pupils.sh lst_all_pupils_3.out
+"delete pupil Botond" del_pupil_2.sh del_pupil_2.out
+"list all pupils (2 pupils)" lst_all_pupils.sh lst_all_pupils_2.out
+"delete class 1B (already empty)" del_class_1B.sh del_class_1B.out
+"list all classes (2 classes)" lst_all_classes.sh lst_all_classes_2.out
+"delete all classes cascaded" del_all_classes.sh del_all_classes.out
+"list all classes (no classes)" lst_all_classes.sh lst_all_classes_empty.out
+"list all pupils (no pupils)" lst_all_pupils.sh lst_all_pupils_empty.out
